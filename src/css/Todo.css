@@ -1,0 +1,34 @@
+.todo__list {
+  display: flex;
+  align-items: center;
+  color: #1976d2;
+}
+
+.todo__list > button {
+  text-transform: inherit;
+  height: 25%;
+  width: 10%;
+}
+
+.todo__modal {
+  height: 250px;
+}
+
+.todo__title {
+  text-align: center;
+  color: #1976d2;
+}
+
+.MuiBackdrop-root {
+  background-color: rgba(172, 210, 189, 255) !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .todo__modal {
+    width: 250px !important;
+  }
+
+  .todo__list {
+    width: 60%;
+  }
+}

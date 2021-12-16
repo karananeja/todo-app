@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30vw;
+  border: 1px solid #1976d2;
+  border-radius: 15px;
+}
+
+.app__title {
+  margin: 0 auto;
+  color: #1976d2;
+}
+
+.app__form {
+  margin: 20px 0;
+}
+
+.app__layout {
+  display: flex;
+  position: relative;
+}
+
+.app__layout > button {
+  margin-left: 50px;
+  position: absolute;
+  top: 80px;
+  left: 315px;
+}
+
+@media only screen and (max-width: 500px) {
+  .app {
+    width: 70vw;
+  }
+
+  .app__layout > button {
+    top: 80px;
+    left: 150px;
+  }
+}
